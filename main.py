@@ -7,6 +7,8 @@ app = Flask(__name__)
 def hello_world():
     return "Fuck yourself"
 
+application = app  # Add this line
+
 if __name__ == "__main__":
     app.run()
 # %%
