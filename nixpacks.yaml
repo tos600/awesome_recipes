@@ -3,4 +3,4 @@ packages:
     version: "3.11"
 
 script:
-  start: python app.py
+  start: python app/main.py
