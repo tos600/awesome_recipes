@@ -1,3 +1,6 @@
 packages:
   python:
-    version: "3.11.9"
+    version: "3.11"
+
+script:
+  start: python app/app.py
