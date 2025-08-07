@@ -1,3 +1,6 @@
 packages:
   python:
     version: "3.11"
+
+script:
+  start: gunicorn -w 1 app:main
